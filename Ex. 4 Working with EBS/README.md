@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: NARESH PS
+* **Register Number**: 212223040127
+* **Date of Submission**: 22.05.2026
 
 ---
 
@@ -78,33 +78,34 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Log in to the AWS Management Console, navigate to EC2 Dashboard, and explore the Amazon EBS service and its available volume types.
+2. Create a new EBS volume in the same Availability Zone as the existing EC2 instance by selecting the required size and volume type.
+3. Attach the created EBS volume to the running EC2 instance as an additional block device.
+4. Connect to the EC2 instance using SSH, format the attached volume with a file system (such as ext4), and mount it to a directory (for example, /mnt/ebs).
+5. Create files and store sample data inside the mounted volume, reboot the EC2 instance, and verify that the stored data remains available to confirm persistence.
 
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
+<img width="1263" height="607" alt="image" src="https://github.com/user-attachments/assets/c71508cd-bbce-4201-aa2b-4dcf924df4c0" />
 
-(Insert Screenshot Here)
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1268" height="654" alt="image" src="https://github.com/user-attachments/assets/1c06cf61-a4a3-4276-b172-173bfdee6de6" />
+
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1258" height="648" alt="image" src="https://github.com/user-attachments/assets/71e0fdcd-f181-43d2-b82d-0ae5c8e74e2b" />
+
+
 
 ---
 
